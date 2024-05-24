@@ -11,7 +11,7 @@ else:
         acum += sueldo
         if 500000 <= sueldo <= 900000:
             cont1 += 1
-        elif sueldo > 900000 and sueldo <= 1500000:  # Corregimos la condición del segundo if
+        elif sueldo > 900000 and sueldo <= 1500000:  
             cont2 += 1
         sueldo = int(input("Ingrese el sueldo: "))
 
